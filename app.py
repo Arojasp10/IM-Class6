@@ -35,7 +35,7 @@ text = st.text_area("Ingrese El texto a escuchar, plis.")
 tld='com'
 option_lang = st.selectbox(
     "Selecciona el lenguaje",
-    ("Español", "English"))
+    ("Español", "Japanese"))
 if option_lang=="Español" :
     lg='es'
 if option_lang=="Japanese" :
