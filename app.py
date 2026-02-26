@@ -38,8 +38,8 @@ option_lang = st.selectbox(
     ("Español", "English"))
 if option_lang=="Español" :
     lg='es'
-if option_lang=="English" :
-    lg='en'
+if option_lang=="Japanese" :
+    lg='jp'
 
 def text_to_speech(text, tld,lg):
     
